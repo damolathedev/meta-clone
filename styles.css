@@ -1,0 +1,445 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-header {
+  padding: 1rem 5rem;
+}
+
+.position {
+  position: relative;
+}
+
+.main-header::after {
+  content: "CLONE";
+  background: yellow;
+  font-size: 2rem;
+  padding: 0.6rem 1.2rem;
+  position: absolute;
+  top: 8rem;
+  right: 0;
+}
+
+.main-header img {
+  width: 40rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 3.2rem;
+  padding: 0 6.4rem;
+  padding: 4.4rem 0;
+  margin-right: 4.8rem;
+}
+
+.nav-list {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.nav-list.nav-cta {
+  color: #54687d;
+  background-color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.main-page {
+  background-color: #48596b;
+}
+
+.ukraine-div {
+  background-color: #303c47;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ukraine {
+  padding: 2.4rem 0;
+  letter-spacing: 0.5px;
+}
+
+.ukraine span {
+  font-weight: 600;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5.2rem 6.9rem;
+}
+
+.text-box {
+  align-self: center;
+  /* justify-self: left; */
+}
+
+.text-box-heading {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.text-box-subheading {
+  padding-right: 2.4rem;
+  font-size: 3.6rem;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 400;
+  margin: 2.4rem 0;
+}
+
+.text-box-paragraph {
+  font-size: 1.6rem;
+  line-height: 2.5;
+}
+
+.svg {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+
+.hero-icon {
+  stroke: #fff;
+  height: 6.2rem;
+  stroke-width: 0.5px;
+}
+
+.hero-icon-text {
+  font-size: 1.8rem;
+}
+
+.fea-des {
+  max-width: 120rem;
+  margin: 9rem auto;
+  /* background-color: blue; */
+}
+
+.description {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.description-paragraph {
+  color: #000;
+  font-weight: 500;
+}
+
+.description-heading {
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.description-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 5.2rem;
+  gap: 2rem;
+}
+
+.grid-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  color: #000;
+}
+
+.grid-paragraph {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.featured-date,
+.featured-subheading,
+.grid-paragraph {
+  color: #555;
+}
+
+.featured {
+  margin: 9rem 0 6rem 0;
+}
+
+.featured-heading {
+  font-size: 2.4rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.2rem;
+  color: #000;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+.featured-img {
+  width: 100%;
+  height: 24rem;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px 0 #000;
+}
+
+.featured-subheading {
+  font-weight: normal;
+  margin-top: 1.2rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.see-icon {
+  stroke: #555;
+  height: 5.8rem;
+  stroke-width: 0.5px;
+}
+
+.see-paragraph {
+  color: #555;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.see {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: end;
+  margin-top: 1.8rem;
+  margin-bottom: 6.2rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 6.2rem;
+}
+
+.projects-card {
+  border: #999 1px solid;
+  /* transition: all 0.3s; */
+}
+
+.projects-card:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 0 0 32px 0 #000;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.projects-heading,
+.projects-paragraph {
+  color: #555;
+}
+
+.projects-heading {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-top: 1.2rem;
+}
+
+.projects-paragraph {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 2;
+  margin-bottom: 3rem;
+}
+
+.projects-subheading {
+  color: #000;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  margin: 1.2rem 0;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.view-paragraph {
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.icon {
+  stroke: #555;
+  height: 2.4rem;
+}
+
+.padding {
+  padding: 0 2.4rem;
+}
+
+.main-showcase {
+  background-color: #f9f9f9;
+  padding-top: 9.6rem;
+  padding-bottom: 12rem;
+}
+
+.showcase {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 10rem;
+}
+
+.showcase-heading {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 550;
+}
+
+.showcase-subheading {
+  font-size: 4.4rem;
+  font-weight: normal;
+  letter-spacing: 0.5;
+  color: #000;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.showcase-paragraph {
+  color: #000;
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.showcase-img-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.showcase-img-box img {
+  width: 100%;
+  border: rgba(136, 136, 136, 0.5) solid 1px;
+  height: 20rem;
+  padding: 0 20%;
+}
+
+.showcase-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.showcase-icon-paragraph {
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.meta-svg {
+  height: 6.2rem;
+}
+
+.footer {
+  background-color: #eef1ff;
+}
+
+.footer-grid {
+  max-width: 120rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 9.6rem 2.4rem;
+}
+
+.footer-grid-left {
+  text-align: left;
+  position: relative;
+}
+
+.meta-svg {
+  position: relative;
+  top: 0;
+  left: -20px;
+}
+
+.footer-paragraph {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: normal;
+  margin-top: 5.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-link {
+  display: inline-block;
+}
+
+.site-map {
+  display: flex;
+  gap: 6.2rem;
+  justify-content: center;
+}
+
+.site-map-list ul li {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: normal;
+  list-style: none;
+  margin-bottom: 0.6rem;
+  justify-self: left;
+  cursor: pointer;
+}
+
+.first.li {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  cursor: default;
+}
+
+.site-icon {
+  height: 1.6rem;
+  stroke: #000;
+}
+
+.style {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+}
